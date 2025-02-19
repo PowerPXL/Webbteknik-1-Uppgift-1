@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+/* ----- Grundstil för webbsidan ----- */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #c1c5f3;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Stil för element */
+.section {
+    background-color: rgb(132, 132, 221);
+    padding: 10px;
+    font-style: italic;
+
+}
+/* Stil för alla boxar */
+.section div {
+}
+/* Stil separat */
+#s1 {
+    background-color:rgb(156, 156, 248);
+    padding: 10px;
+    font-size: smaller;
+}
+
+/* Länkars egenskaper - funkar inte än. Fortsätt och kolla i L3*/
+nav {
+    text-decoration: none;
+
+}
