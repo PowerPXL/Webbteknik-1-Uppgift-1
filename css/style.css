@@ -12,6 +12,7 @@ body {
     background-color: #c1c5f3;
     color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 /* Stil för element */
 .section {
@@ -29,9 +30,16 @@ body {
     padding: 10px;
     font-size: smaller;
 }
+#s2 {
+    background-size: cover;
+    background-image: url(/pics/background.jpeg);
+    }
 
 /* Länkars egenskaper - funkar inte än. Fortsätt och kolla i L3*/
-nav {
+nav a {
     text-decoration: none;
+}
 
+a:hover {
+color: rgb(59, 175, 65);   
 }
