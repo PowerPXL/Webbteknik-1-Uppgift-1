@@ -1,27 +1,21 @@
 @charset "UTF-8";
-
 /* ----- Grundstil för webbsidan ----- */
-
 html {
     font-size: 16px;
 }
-
 body {
     width: 1000px;
     margin: 0 auto;
     background-color: #c1c5f3;
     color: #000000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 /* Stil för element */
 .section {
     background-color: rgb(132, 132, 221);
     padding: 10px;
     font-style: italic;
-
 }
-/* Stil för alla boxar */
 .section div {
 }
 /* Stil separat */
@@ -34,12 +28,10 @@ body {
     background-size: cover;
     background-image: url(/pics/background.jpeg);
     }
-
-/* Länkars egenskaper - funkar inte än. Fortsätt och kolla i L3*/
+/* Länkars egenskaper -----*/
 nav a {
     text-decoration: none;
 }
-
 a:hover {
 color: rgb(59, 175, 65);   
 }
